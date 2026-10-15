@@ -1,0 +1,33 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Private Tboli corpora and locally-generated analysis files
+**/tboli_dataset/
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.wav
+*.flac
+*.mp3
+
+# Model weights, checkpoints and training artifacts
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+checkpoint-*/
+runs/
+wandb/
+
+# Notebook/OS cache
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
