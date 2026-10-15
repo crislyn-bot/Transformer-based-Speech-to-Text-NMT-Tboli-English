@@ -1,6 +1,6 @@
 # mBART-50 — Tboli-to-English Machine Translation
 
-**Notebook:** [MachineTranslation_Finetuning.ipynb](MachineTranslation_Finetuning.ipynb)  
+**Notebook:** [mt_mbart_tboli_lang.ipynb](mt_mbart_tboli_lang.ipynb)  
 **Pre-DPO model:** [crslnjoyz/mt-pre-RLHF-v2](https://huggingface.co/crslnjoyz/mt-pre-RLHF-v2)  
 **DPO-refined model:** [crslnjoyz/mt-mbart-50-rlhf-dpo-tboli-lang](https://huggingface.co/crslnjoyz/mt-mbart-50-rlhf-dpo-tboli-lang)
 
